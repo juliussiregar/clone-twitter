@@ -1,0 +1,335 @@
+.beranda{
+  height: 100vh;
+  width: 100vw;
+}
+
+.homepage{
+  display: flex;
+  flex-direction: row;
+}
+
+.homepage_left{
+  display: flex;
+  align-items: center;
+  width: 50vw;
+  height: 80vh;
+  /* display: none; */
+}
+
+.logo{
+  margin-top: 8rem;
+  align-self: center;
+  width: 100%;
+  height: 50%;
+}
+
+.homepage_right{
+  display: flex;
+  flex-direction: column;
+  width: 50vw;
+  height: 80vh;
+  padding-top: 10rem;
+}
+
+.title{
+  font-family: Arial, sans-serif;
+  font-size: 5rem;
+  font-weight: bolder;
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.subtitle{
+  font-family: sans-serif;
+  font-weight: bolder;
+  font-size: 2rem;
+  padding-top: 0;
+}
+
+.register{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+}
+
+.goggle,
+.apple{
+  background-color: white;
+  text-align: center;
+  border-radius: 30px;
+  width: 20rem;
+  margin: 0.5rem;
+  height: 2.75rem;
+  font-size: 1rem;
+  border: 1.5px solid rgb(230, 229, 229);
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.goggle:hover{
+  background-color: #F8FAFE;
+  border: 1.5px solid #dde5f4;
+}
+.apple:hover{
+  background-color: #E6E6E6;
+  border: 1.5px solid #cfd5e0;
+}
+
+.logo_google,
+.logo_apple{
+  width: 30px;
+  height: 15px;
+}
+
+.apple{
+  font-weight: bold;
+}
+
+.or{
+  position: flex;
+  margin-top: 0;
+  margin-bottom: 0;
+  width: 20rem;
+  text-align: center;
+}
+
+.create{
+  position: flex;
+  background-color: #1D9BF0;
+  font-weight: bolder;
+  color: white;
+  text-align: center;
+  border-radius: 30px;
+  width: 20rem;
+  margin: 0.5rem;
+  height: 2.75rem;
+  font-size: 1rem;
+  border: 1.5px solid rgb(230, 229, 229);
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.create:hover{
+  background-color: #198CD8 ;
+}
+
+.policies{
+  color: #536471;
+  margin-top: 0;
+  padding-left: 0.5rem;
+  width: 20.5rem;
+  font-size: 0.75rem;
+}
+
+.link{
+  text-decoration: none;
+  color: #1D9BF0;
+  cursor: pointer;
+}
+
+.link:hover{
+  text-decoration: underline;
+}
+
+.account{
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.signin{
+  position: flex;
+  background-color: white;
+  font-weight: bolder;
+  color: #1D9BF0;
+  text-align: center;
+  border-radius: 30px;
+  width: 20rem;
+  margin: 0.5rem;
+  height: 2.75rem;
+  font-size: 1rem;
+  border: 1.5px solid rgb(230, 229, 229);
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.signin:hover{
+  background-color: #EBF5FE;
+}
+
+.footer{
+  display: flex;
+  width: 100vw;
+  margin: 0 2rem 0 2rem;
+  justify-content: center;
+}
+
+.footer_table{
+  display: flex;
+  font-size: 0.8rem;
+  border-collapse: separate;
+  border-spacing: 15px;
+}
+
+.link_footer{
+  color: #536471;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.link_footer:hover{
+  text-decoration: underline;
+}
+
+.pop_out{
+  background: rgb(0, 0, 0, 0.6);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pop_out_login{
+  position: flex;
+  text-align: center;
+  width: 550px;
+  height: 650px;
+  background: white;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.logo_login{
+  position: relative;
+  top: -3%;
+  width: 40px;
+  height: 40px;
+}
+
+.sign_in_title{
+  display: flex;
+  font-size: 2rem;
+  font-family: sans-serif;
+  margin-left: 7.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.login_button_1{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.goggle_pop_login,
+.apple_pop_login{
+  background-color: white;
+  text-align: center;
+  border-radius: 30px;
+  width: 20rem;
+  margin: 0.75rem;
+  height: 2.75rem;
+  font-size: 1rem;
+  border: 1.5px solid rgb(230, 229, 229);
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.goggle_pop_login:hover{
+  background-color: #F8FAFE;
+  border: 1.5px solid #dde5f4;
+}
+.apple_pop_login:hover{
+  background-color: #E6E6E6;
+  border: 1.5px solid #cfd5e0;
+}
+
+.apple_pop_login{
+  font-weight: bold;
+}
+
+.input_login{
+  background-color: white;
+  padding-left: 10px;
+  text-align: start;
+  border-radius: 5px;
+  width: 19rem;
+  margin: 0.75rem;
+  height: 3rem;
+  font-size: 1.25rem;
+  border: 1.5px solid rgb(230, 229, 229);
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.next_login{
+  background-color: black;
+  color: white;
+  font-family: sans-serif;
+  font-weight: bolder;
+  text-align: center;
+  border-radius: 30px;
+  width: 20rem;
+  margin: 0.75rem;
+  height: 2.4rem;
+  font-size: 1rem;
+  border: 1.5px solid rgb(230, 229, 229);
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.next_login:hover{
+  background-color: rgb(45, 44, 44);
+}
+
+.forgot_password_login{
+  background-color: white;
+  color: rgb(31, 31, 31);
+  font-family: sans-serif;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 30px;
+  width: 20rem;
+  margin: 0.75rem;
+  height: 2.4rem;
+  font-size: 1rem;
+  border: 1.5px solid rgb(230, 229, 229);
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.forgot_password_login:hover{
+  background-color: #E6E6E6;
+  border: 1.5px solid #cfd5e0;
+}
+
+.register_pop_login{
+  display: flex;
+  font-size: 0.95rem;
+  font-family: sans-serif;
+  margin-top: 3rem;
+  margin-left: 7.5rem;
+  margin-bottom: 1.5rem;
+  color: rgb(99, 98, 98);
+}
+
+.link_login{
+  margin-left: 4px;
+  text-decoration: none;
+  color: #1D9BF0;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.link_login:hover{
+  text-decoration: underline;
+}
+
+.close{ 
+  display: flex;
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+}
+
